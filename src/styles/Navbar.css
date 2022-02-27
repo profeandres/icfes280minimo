@@ -1,0 +1,43 @@
+.navbar{
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 0 5px; 
+    border: 1px solid grey;
+}
+
+.navbar__logo{
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    display: inline;
+}
+
+.navbar ul{
+    display: inline;
+    position:absolute;
+    right: 10px;
+}
+
+.navbar li{
+    display: inline;
+    list-style: none;
+    padding: 10px
+}
+
+.navbar a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all ease 0.5s;
+    font-family: 'Montserrat';
+}
+
+.navbar a:hover{
+    text-shadow: 
+    1px 1px 10px white, 
+    -1px 1px 10px white,
+    1px -1px 10px white,
+    -1px -1px 10px white ;
+}
+

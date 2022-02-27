@@ -1,0 +1,29 @@
+.about{
+    padding: 5px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.about h1{
+    text-align: center;
+
+}
+
+.about p:nth-child(even){
+    padding: 20px;
+    background: grey;
+    color: black;
+}
+
+.about p:nth-child(odd){
+    padding: 20px;
+    background: grey;
+    color: black;
+}
+
+.about h3{
+    font-family:'Dancing Script', cursive;
+    font-size: 50px;
+    text-align: center;
+}
