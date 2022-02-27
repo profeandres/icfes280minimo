@@ -5,6 +5,7 @@ export const Navbar = () => {
   return (
     <div className='navbar'>
         <div className='navbar__logo'>ICFES 280 MINIMO</div>
+        <div className='navbar__ul'>
         <ul>
             <li><a href="/">Inicio</a></li>
             
@@ -14,6 +15,7 @@ export const Navbar = () => {
             
             <li><a href="/about">About</a></li>
         </ul>
+        </div>
     </div>
   )
 }
