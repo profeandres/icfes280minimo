@@ -31,7 +31,9 @@ export const Inicio = () => {
       <div className='cuentaReg'>
         <h1>PRUEBAS ICFES 2022</h1>
         <h2>Faltan</h2>
-        <h3>{date.mes} meses</h3>
+        {date.mes>1 && <h3>{date.mes} meses</h3>}
+        {date.mes===1 && <h3>{date.mes} mes</h3>}
+        
         <h3>{date.dia} días</h3>
         <h3>{date.hora} h</h3>
         <h3>{date.min} min</h3>
